@@ -1,0 +1,16 @@
+name: MenuInv
+main: com.qiufeng.menuinv.MainPlugin
+version: 1.0-SNAPSHOT
+depend: [Vault]
+commands:
+  givemenubook:
+    description: Gives a book that shows a menu
+    aliases: gmb
+    usage: /givemenubook
+  openmenu:
+    description: Opens menu
+    aliases: ome
+    usage: /openmenu
+  menuinv:
+    description: Utils commands
+    usage: /menuinv <reload>

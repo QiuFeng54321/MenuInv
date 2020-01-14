@@ -1,0 +1,30 @@
+panels:
+  Menu:
+    items:
+      menu:
+        ID: BOOK
+        name: Menu
+    gui:
+      items:
+        - id: tpworld
+          item: ENDER_PEARL
+          display: Teleport to a world
+          command: ome World Teleport
+          slot: 0
+  World Teleport:
+    items:
+      menu:
+        ID: none
+        name: none
+    gui:
+      items:
+        - id: creative1
+          item: DIAMOND_PICKAXE
+          display: creative1
+          command: mv tp creative1
+          slot: 0
+        - id: survival
+          item: DIAMOND_SWORD
+          display: survival
+          command: mv tp survival
+          slot: 1
